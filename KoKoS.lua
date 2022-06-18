@@ -30,3 +30,4 @@ Tab:AddButton({
   	end    
 })
 
+OrionLib:Init()

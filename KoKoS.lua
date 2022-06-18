@@ -22,3 +22,11 @@ Tab:AddButton({
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kokosik112/rblxscript/main/vanity.lua')))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Strelizia",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kokosik112/rblxscript/main/Strelizia.lua')))()
+  	end    
+})
+

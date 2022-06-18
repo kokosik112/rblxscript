@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Synapse Scripts", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False})
+local Window = OrionLib:MakeWindow({Name = "Synapse Scripts", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False, CloseCallback = OrionLib:Destroy()})
 
 OrionLib:MakeNotification({
 	Name = "Loading Completed!",
@@ -29,5 +29,30 @@ Tab:AddButton({
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kokosik112/rblxscript/main/Strelizia.lua')))()
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Vanity",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kokosik112/rblxscript/main/vanity.lua')))()
+  	end    
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 OrionLib:Init()

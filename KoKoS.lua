@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Synapse Scripts", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False, CloseCallback = OrionLib:Destroy()})
+local Window = OrionLib:MakeWindow({Name = "Synapse Scripts", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False})
 
 OrionLib:MakeNotification({
 	Name = "Loading Completed!",

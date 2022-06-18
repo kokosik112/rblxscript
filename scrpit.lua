@@ -1,24 +1,24 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Lumber Tycoon Gui's", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False})
+local Window = OrionLib:MakeWindow({Name = "Synapse Scripts", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False})
 
 OrionLib:MakeNotification({
 	Name = "Loading Completed!",
-	Content = "Hello ",
+	Content = "Hello Niggers",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
 
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "MS2",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Vanity",
 	Callback = function()
-      		print("button pressed")
+      		
   	end    
 })

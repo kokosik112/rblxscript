@@ -19,6 +19,6 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Vanity",
 	Callback = function()
-      		
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kokosik112/rblxscript/main/vanity.lua')))()
   	end    
 })

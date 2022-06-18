@@ -2,9 +2,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Lumber Tycoon Gui's", HidePremium = true, IntroEnabled =false, IntroIcon =false, IntroText =False})
 
-local username = os.getenv('USERNAME');
-
-
 OrionLib:MakeNotification({
 	Name = "Loading Completed!",
 	Content = "Hello ",
